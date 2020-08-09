@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 3000;
 const main = path.join(__dirname, "/public");
 
 app.use(express.static('public'));
