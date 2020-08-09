@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.get("/notes", function (req,res) {
-    res.sendFile(path.join(main, "notes.hrml"));
+    res.sendFile(path.join(main, "notes.html"));
 });
 
 app.get("/api/notes", function(req, res){
