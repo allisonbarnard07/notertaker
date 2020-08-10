@@ -9,3 +9,6 @@
 
       ## Contribution 
       Allison Barnard
+      
+      ##Image
+      ![Image 1](photo.png)
